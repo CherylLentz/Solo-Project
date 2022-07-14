@@ -1,0 +1,131 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    width: 720px;
+    height: 1080px;
+}
+
+#hero {
+    background: url("images/torshov.jpg");
+    background-size: cover;
+        height: 343px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+
+h1 {
+    background: #1D3557;
+    padding: 5px 12px;
+    border-radius: 15px;
+    color: #FFFFFF;
+    font-size: 32px;
+}
+
+h2 {
+    width: 412px;
+    color: #FFFFFF;
+    font-size: 19px;
+    background: #457B9D;
+    padding: 5px 20px;
+    border-radius: 15px;
+    margin-top: -10px;
+}
+
+#todo {
+    height: 320px;
+    background: #F1FAEE;
+    margin-top: -20px; 
+    padding-top: 20px;
+    }
+
+h3 {
+    color: #1D3557;
+}
+
+#park, #theatre, #sport {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#activities {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.top-three {
+    border-radius: 50%;
+    margin: 10px 0 5px 0;
+}
+
+.top-heading{
+    color: #1D3557;
+    font-weight: bold;
+    font-size: 16px;   
+    width: 183px;
+    margin-bottom: 0; 
+}
+
+.desc {
+    color: #1D3557;
+    font-size: 16px;
+    width: 198px;
+    display: none;
+}
+
+.hover:hover + .desc {
+    display: block;
+    position: relative;
+    top: -5px;
+}
+
+img {
+    width: 100px;
+}
+
+#guide {
+    width: 400px;
+    background: #A8DADC;;
+    box-shadow: 0px 6px 0px #1D3557;
+    border-radius: 10px;
+    margin: 50px 160px;
+    color: #1D3557;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 23px 11px 23px 23px;
+}
+
+#your-guide {
+    padding-top: 20px;
+    }
+
+#about {
+    font-size: 16px;
+    font-style: italic;
+}
+
+#Per {
+    font-size: 16px;
+}
+
+
+#per-img {
+    width: 180px;
+    height: 250px;
+    border-radius: 10px;
+}
